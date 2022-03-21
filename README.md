@@ -2,7 +2,7 @@
 <div align='center'>
 
 [![Дискорд](https://img.shields.io/discord/946248523769327626)](https://discord.gg/mZTCCYWjb6)
-  
+[![верифиец пай ауроравенир](https://cdn.discordapp.com/attachments/955016760686444544/955524196073603102/15_20220321205157.png)](https://bit.ly/verifiedbyauroravenir)
 </div>
 
 ## Использование
