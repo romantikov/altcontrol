@@ -7,5 +7,5 @@
 
 ## Использование
 ```lua
-
+loadstring(game:HttpGet(""))();
 ```
