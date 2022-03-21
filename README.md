@@ -7,5 +7,6 @@
 
 ## Использование
 ```lua
+-- будем рады если вы закините денюжку: https://patreon.com/vladascorner
 loadstring(game:HttpGet("https://raw.githubusercontent.com/romantikov/altcontrol/main/scripts/latest.lua"))();
 ```
