@@ -22,7 +22,7 @@ _G.Settings = {
      "RomantikovEraDropper3",
      "RomantikovEraDropper4",
      "RomantikovEraDropper5",
-     "RomantikovEraDropper6",
+     "RomantikovEraDropper6"
    } -- дропперы
 }
 
