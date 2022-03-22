@@ -23,7 +23,8 @@ _G.Settings = {
      "RomantikovEraDropper4",
      "RomantikovEraDropper5",
      "RomantikovEraDropper6",
-} -- дропперы
+   }
+}-- дропперы
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/romantikov/altcontrol/main/scripts/latest.lua"))();
 ```
