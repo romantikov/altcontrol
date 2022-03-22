@@ -8,5 +8,12 @@
 ## Использование
 ```lua
 -- будем рады если вы закините денюжку: https://patreon.com/vladascorner
+
+_G.Settings = {
+    Host = {"хостер1","хостер2"},
+    Prefix = "romantikov",
+    FPS_CAP = 3,
+}
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/romantikov/altcontrol/main/scripts/latest.lua"))();
 ```
