@@ -9,21 +9,18 @@
 ```lua
 -- будем рады если вы закините денюжку: https://patreon.com/vladascorner
 
-_G.Settings = {
-    Host = {
-      "хостер1",
-      "хостер2"
-     } -- юзернэйм(ы) игрока где будут выполняться команды
-    Prefix = "romantikov", -- префикс; если вы оставите этот префикс то команды будут выглядить так: «romantikov bring»
-    FPS_CAP = 3, -- фпс для дропперов
-    Droppers: {
-     "RomantikovEraDropper1",
-     "RomantikovEraDropper2",
-     "RomantikovEraDropper3",
-     "RomantikovEraDropper4",
-     "RomantikovEraDropper5",
-     "RomantikovEraDropper6"
-   } -- дропперы
+getgenv().Settings = {
+    ["Host"] = "хостер1", -- юзернэйм(ы) игрока где будут выполняться команды
+    ["Prefix"] = "romantikov", -- префикс; если вы оставите этот префикс то команды будут выглядить так: «romantikov bring»,
+    ["FPS"] = 5, -- фпс для дропперов
+    ["Droppers"] = { 
+        "RomantikovEraDropper1",
+        "RomantikovEraDropper2",
+        "RomantikovEraDropper3",
+        "RomantikovEraDropper4",
+        "RomantikovEraDropper5",
+        "RomantikovEraDropper6"
+    }, -- дропперы
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/romantikov/altcontrol/main/scripts/latest.lua"))();
