@@ -7,4 +7,18 @@
 
 --]]
 
-game.Players.LocalPlayer:Kick("скрипт еще не доделан...")
+--[[  local Player = game.Players.LocalPlayer
+local Host   = Settings["Host"]
+local FPSCap = Settings["FPS"]
+local Prefix = Settings["Prefix"]
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+if table.find(Host, Player.Name) then
+
+else
+  setfpscap(FPSCap)
+end
+--]]
